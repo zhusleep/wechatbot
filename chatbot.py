@@ -6,7 +6,7 @@ import  json
 def  tulin_robot(text):
     url="http://www.tuling123.com/openapi/api"
     data={
-        "key":"f2f43bbfa979439fb5ab43fd99aad479",#自己机器人apikey值，需要到网址注册自己获取．
+        "key":"*************************",#人apikey值，需要到网址注册自己获取．
         "info":text,#从微信传输过来的文本内容
         'userid': 'wechat-robot',
         'loc':"武汉"
